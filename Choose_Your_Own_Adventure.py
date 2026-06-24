@@ -1,8 +1,7 @@
 ### Print a welcome message
 print("Welcome to the Haunted Mansion!")
-print("You are a distant family member of a rich millionaire who has just passed away, leaving this mansion to you.")
-print("As the newfound owner, you decide to pay a visit to the mansion.")
-print("The house is dated, creaky, and falling apart. You walk in the front door.")
+print("You inherited this house from a relative of yours.")
+print("The house appears old and decrepited. Yet, you walk in the front door fearlessly.")
 print("Do you want to enter the living room or the dining room?")
 
 ### Prompt user for a choice
@@ -10,24 +9,24 @@ roomChoice = input("> ")
 
 if(roomChoice == "living room"):
     print("You enter the living room")
-    print("AS you walk in, you see a sleeping pitbull guarding some gold jewelry.")
-    print("Do you want to steal the jewelry from the pitbull? (yes/no)")
+    print("AS you walk in, you see a sleeping serpent guarding some gold jewelry.")
+    print("Do you want to steal the jewelry from the serpent? (yes/no)")
     
     pitbullChoice = input("> ")
     
     if(pitbullChoice == "yes"):
-        print("You attempt to steal the jewelry, but it wakes up and rips you to shreds.")
+        print("You attempt to steal the jewelry, but it wakes up and swallows you to whole.")
         print("You are now dead...")
     
     elif(pitbullChoice == "no"):
-        print("You decide to not steal the dog's jewelry")
+        print("You decide to not steal the serpent's jewelry")
         print("You turn around and leave the house safely")
     else:
         print("Invalid choice. Please enter yes or no.")
     
 elif(roomChoice == "dining room"):
     print("You chose to go into the dining room.")
-    print("As you walk in, you see a shiny vase on the table.")
+    print("As you walk in, you see an expensive-looking vase on the table.")
     print("Do you want to open the vase? (yes/no)")
     
     vaseChoice = input("> ")
