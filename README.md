@@ -1,1 +1,1 @@
-A short game I developed with Python
+This is an interactive command line application
